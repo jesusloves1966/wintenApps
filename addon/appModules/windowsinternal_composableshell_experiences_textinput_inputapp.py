@@ -1,10 +1,10 @@
 # App module for Composable Shell (CShell) input panel
 #A part of NonVisual Desktop Access (NVDA)
-#Copyright (C) 2017 NV Access Limited, Joseph Lee
+#Copyright (C) 2017-2018 NV Access Limited, Joseph Lee
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
 
-"""App module for Windows 10 new touch keyboard panel.
+"""App module for Windows 10 Modern Keyboard aka new touch keyboard panel.
 The chief feature is allowing NVDA to announce selected emoji when using the keyboard to search for and select one.
 Another feature is to announce candidates for misspellings if suggestions for hardware keyboard is selected.
 This is applicable on Windows 10 Fall Creators Update and later."""
@@ -31,8 +31,10 @@ class AppModule(appModuleHandler.AppModule):
 			# If dealing with keyboard entry suggestions (build 17040 and later), return immediately.
 			candidate = obj.parent.previous
 			if candidate is None:
-				ui.message(obj.name)
-				nextHandler()
+				# No need for this on build 17063/hardware input suggestion as focus event takes care of it.
+				# Keep this here as a comment until Version 1803 is released.
+				#ui.message(obj.name)
+				#nextHandler()
 				return
 			ui.message(candidate.name)
 			obj = candidate.firstChild

@@ -18,6 +18,8 @@ käytettävissä olevista ominaisuuksista kunkin sovelluksen kappaleesta):
 * Sähköposti
 * Kartat
 * Microsoft Edge
+* Moderni näppäimistö (emojiruudun/fyysisen näppäimistösyötteen ehdotukset
+  versiossa 1709 ja uudemmissa)
 * Ihmiset
 * Asetukset (järjestelmän asetukset, Windows+I)
 * Skype (universaali sovellus)
@@ -53,11 +55,6 @@ NVDA:n asetukset muutettuasi lisäosan päivitysasetuksia.
   NVDA:n Asetukset-valikosta löytyvän uuden Windows 10 App Essentials
   -valintaikkunan kautta. Vakaat ja kehitysversiot suorittavat oletuksena
   automaattisen päivitystarkistuksen viikoittain tai päivittäin.
-* Tuki version 1709 (Fall Creators -päivitys) kelluvalle
-  emojinsyöttöruudulle. Käytä parhaan kokemuksen saamiseksi Windows OneCore
-  -syntetisaattoria.
-* Tuki fyysisen näppäimistösyötteen ehdotuksille koontiversiossa 17040 ja
-  uudemmissa.
 * Joidenkin sovellusten Aktiivisen alueen teksti luetaan. Näitä ovat
   mm. Edgen ilmoitukset ja laskutoimitusten tulokset Laskimessa sekä
   muut. Huomaa, että tämä saattaa johtaa joissakin tapauksissa ilmoitusten
@@ -113,6 +110,14 @@ NVDA:n asetukset muutettuasi lisäosan päivitysasetuksia.
 * Ilmoitukset, kuten tiedostojen lataukset ja useat verkkosivujen
   ilmoitukset, luetaan. Suurin osa näistä muutoksista sisältyy NVDA
   2017.3:een.
+
+## Moderni näppäimistö
+
+* Tuki version 1709 (Fall Creators -päivitys) kelluvalle
+  emojinsyöttöruudulle. Käytä parhaan kokemuksen saamiseksi Windows OneCore
+  -syntetisaattoria.
+* Tuki fyysisen näppäimistösyötteen ehdotuksille koontiversiossa 17040 ja
+  uudemmissa.
 
 ## Ihmiset
 
