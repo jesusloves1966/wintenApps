@@ -96,7 +96,7 @@ def addonUpdateCheck(autoCheck=False):
 	try:
 		info = checkForAddonUpdate()
 	except:
-		log.debugWarning("Error checking for update", exc_info=True)
+		log.error("Error checking for update", exc_info=True)
 		if not autoCheck:
 			wx.CallAfter(progressDialog.done)
 			progressDialog = None
@@ -302,8 +302,8 @@ try:
 					pass
 				if closeAfter:
 					wx.CallLater(1, addonGui.AddonsDialog(gui.mainFrame).Close)
-except NameError:
-	pass
+except:
+	log.debugWarning("Error downloading Windows 10 App Essentials update", exc_info=True)
 
 # Borrowed from NVDA Core (the only difference is the URL and where structures are coming from).
 def _updateWindowsRootCertificates():

@@ -5,7 +5,8 @@
 * Descargar [versión de desenvolvemento][2]
 
 Este complemento é unha coleción de app modules para varias aplicacións de
-Windows 10, así coma correccións para certos controis de windows 10.
+Windows 10, así coma melloras e correccións para certos controis de windows
+10.
 
 Inclúense os seguintes app modules ou o apoio para módulos para algunhas
 aplicacións (consulta cada sección para a aplicación para detalles sobre que
@@ -28,7 +29,7 @@ se inclúe):
 * O Tempo
 * Módulos misceláneos para controis como mosaicos do Menú Inicio.
 
-Nota: este complemento require do Windows 10 Versión 1607 (build 14393) ou
+Nota: este complemento require do Windows 10 Versión 1703 (build 15063) ou
 posterior e do NVDA 2017.3 ou posterior. Para uns mellores resultados, usa o
 complemento coa compilación estable máis recente (build 16299) e versión
 estable máis recente do NVDA. Tamén, despois de cambiar as opcións de
@@ -40,8 +41,7 @@ NVDA.
 * En menús de contexto para os mosaicos do Menú Inicio, os submenús
   recoñécense apropriadamente.
 * Agora recoñécense certos diálogos como proprios diálogos. Esto inclúe o
-  diálogo Insider Preview (settings app) e o diálogo de novo estilo do UAC
-  na compilación 14328 e anteriores para o NVDA 2016.2.1 e anteriores.
+  diálogo Insider Preview (settings app).
 * NVDA pode anunciar conta de suxerencias cando se realiza unha procura na
   maioría dos casos. Esta opción contrólase por "Anunciar información de
   posición do obxecto" no diálogo Presentación de Obxectos.
@@ -51,14 +51,13 @@ NVDA.
   system alert, element selected, window opened. Co NVDA configurado para
   executarse co rexistro de depuración habilitado, estos eventos seguiranse.
 * Engadida a capacidade de procurar as actualizacións do complemento
-  (automática ou manual) a través do novo diálogo Windows 10 App Essentials
-  que se atopa no menú Preferencias do NVDA. Por defecto, procuraranse as
+  (automática ou manual) a través do diálogo Windows 10 App Essentials que
+  se atopa no menú Preferencias do NVDA. Por defecto, procuraranse as
   actualizacións para as versións estable e de desenvolvementeo
   automáticamente semanal ou diáriamente, respectivamente.
 * Nalgunhas aplicacións, anúnciase o texto en rexións vivas. Esto inclúe
   alertas en Edge, na calculadora e noutros. Ten en conta que esto poderá
-  causar unha fala por duplicado nalgúns casos. A maioría dos escenarios son
-  agora parte do NVDA 2017.3.
+  causar unha fala por duplicado nalgúns casos.
 
 ## Alarmas e reloxo
 
@@ -107,8 +106,7 @@ NVDA.
 ## Microsoft Edge
 
 * Agora anúncianse notificacións como descargas de ficheiros e varias
-  alertas de páxina web. A maioría de estos escenarios forman parte do NVDA
-  2017.3
+  alertas de páxina web.
 
 ## Teclado Moderno
 
@@ -126,18 +124,13 @@ NVDA.
 ## Opcións
 
 * Certa información como o progreso da Actualización de Windows agora é
-  anunciada automáticamente. O NVDA manexará por si mesmo a maioría dos
-  casos na 2017.3.
+  anunciada automáticamente.
 * Os valores da barra de progreso e outra información xa non se anuncian
   dúas veces.
-* Se está a tomar un tempo para procurar unha configuración, NVDA anunciará
-  "buscando" e o resultado do estado da procura como se unha opción non se
-  poidera atopar. Agora esto faise dende o NVDA na 2017.3.
 * Os grupos de opcións recoñécense ao se usar a navegación de obxectos para
   navegar entre controis.
 * Para algunhas caixas combinadas, NVDA xa non fallará ao recoñecer
-  etiquetas e/ou ao anunciar cambios de valores. O arranxo do cambio de
-  valor inclúese no NVDA 2017.3.
+  etiquetas e/ou ao anunciar cambios de valores. 
 * Os pitidos da barra de progreso do volume de audio xa non se escoitan na
   compilación 17035 e posterior.
 
@@ -168,11 +161,8 @@ NVDA.
 
 * Despois de buscar actualizacións das aplicacións, os nomes das aplicacións
   na lista de aplicacions actualizarán as etiquetas correctamente.
-* Agora anúnciase a aparición de suxerencias de procura. Esto é agora parte
-  do NVDA 2017.3.
 * Cando se cargue contido como aplicacións e películas, NVDA anunciará o
-  nome do producto e o progreso da descarga. Un arranxo básico é agora parte
-  do NVDA 2017.3
+  nome do producto e o progreso da descarga.
 
 ## O Tempo
 

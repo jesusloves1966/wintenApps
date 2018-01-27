@@ -5,8 +5,8 @@
 * Télécharger [version de développement][2]
 
 Ce module complémentaire est une collection d'app modules pour diverses apps
-de Windows 10, ainsi que des correctifs pour certains contrôles de windows
-10.
+de Windows 10, ainsi que des améliorations et des correctifs pour certains
+contrôles de windows 10.
 
 Les suivantes app modules ou la prise en charge des modules pour certaines
 apps sont inclus (voir chaque section app pour plus de détails sur ce qui
@@ -29,21 +29,21 @@ est inclus) :
 * Météo.
 * Divers modules pour des contrôles tels que les tuiles du Menu Démarrer.
 
-Note: ce module complémentaire nécessite Windows 10 Version 1607 (build
-14393) ou version ultérieure et NVDA 2017.3 ou version ultérieure. Pour de
+Note: ce module complémentaire nécessite Windows 10 Version 1703 build
+15063) ou version ultérieure et NVDA 2017.3 ou version ultérieure. Pour de
 meilleurs résultats, utilisez le module complémentaire avec la dernière
-build stable (build 16299) et la dernière version stable de NVDA. De plus,
-après avoir modifié les paramètres de mise à jour pour le module
-complémentaire, n'oubliez pas de sauvegarder la configuration de NVDA.
+build stable de Windows 10 (build 16299) et la dernière version stable de
+NVDA. De plus, après avoir modifié les paramètres de mise à jour pour le
+module complémentaire, n'oubliez pas de sauvegarder la configuration de
+NVDA.
 
 ## Générale
 
 * Dans les menus contextuels pour les tuiles sous-menus du Menu Démarrer
   sont correctement reconnus.
 * Certaines boîtes de dialogue sont maintenant reconnues comme des boîtes de
-  dialogue propres. Ceci incluent le dialogue Insider Preview (settings app)
-  et le dialogue nouveau style UAC dans la build 14328 et version ultérieur
-  pour NVDA 2016.2.1 ou version antérieure.
+  dialogue propres. Ceci incluent le dialogue Insider Preview (settings
+  app).
 * NVDA peut annoncer le nombre de suggestions lors d'une recherche dans la
   majorité des cas. Cette option est contrôlée par "Annoncer le rang de
   l'objet dans une liste" dans la boîte de dialogue Présentation des Objets.
@@ -54,16 +54,15 @@ complémentaire, n'oubliez pas de sauvegarder la configuration de NVDA.
   ouverte. Avec NVDA configuré pour être exécuté avec le journal activé en
   mode débogage ces événements seront suivis.
 * Ajout de la possibilité de vérifier les mises à jour du module
-  complémentaire(automatiques ou manuelles) via la nouvelle boîte de
-  dialogue Windows 10 App Essentials qui se trouve dans le menu Préférences
-  de NVDA. Par défaut, les versions stables et de développement vérifieront
-  automatiquement les nouvelles mises à jour sur une base hebdomadaire ou
-  quotidienne, respectivement.
+  complémentaire(automatiques ou manuelles) via le dialogue Windows 10 App
+  Essentials qui se trouve dans le menu Préférences de NVDA. Par défaut, les
+  versions stables et de développement vérifieront automatiquement les
+  nouvelles mises à jour sur une base hebdomadaire ou quotidienne,
+  respectivement.
 * Dans certaines applications, le texte de la région en direct est
   annoncé. Cela inclut les alertes dans Edge, résultats dans la calculatrice
   et autres. Notez que cela peut entraîner une double verbalisation dans
-  certains cas. La plupart des scénarios font maintenant partie de NVDA
-  2017.3.
+  certains cas.
 
 ## Alarmes et horloge
 
@@ -90,7 +89,8 @@ complémentaire, n'oubliez pas de sauvegarder la configuration de NVDA.
 * Les réponses textuelles de Cortana sont annoncées dans la plupart des
   situations (si ce n'est pas le cas, réouvrez le menu Démarrer et réessayez
   la recherche).
-* NVDA sera silencieux quand vous vous adresserez vocalement à Cortana.
+* NVDA sera silencieux quand vous vous adresserez vocalement à Cortana via
+  la voix.
 * NVDA annoncera maintenant un rappel de confirmation après que vous
   définissez une.
 
@@ -118,8 +118,7 @@ complémentaire, n'oubliez pas de sauvegarder la configuration de NVDA.
 ## Microsoft Edge
 
 * Notifications telles que les téléchargements de fichiers et les
-  différentes alertes de la page Web sont maintenant annoncées. La plupart
-  de ces scénarios font maintenant partie de NVDA 2017.3.
+  différentes alertes de la page Web sont maintenant annoncées.
 
 ## Clavier moderne
 
@@ -137,19 +136,13 @@ complémentaire, n'oubliez pas de sauvegarder la configuration de NVDA.
 ## Paramètres
 
 * Certaines informations telles que l'avancement de la Mise à jour de
-  Windows est maintenant signalé automatiquement. NVDA elle-même traitera la
-  majorité des cas dans la 2017.3.
+  Windows est maintenant signalé automatiquement.
 * Les valeurs de la barre de progression et d'autres informations ne sont
   plus annoncés deux fois.
-* Si il faut du temps pour rechercher des paramètres, NVDA annoncera
-  "recherch en cours" et l'état du résultat de la recherche tel comme si un
-  paramètre est introuvable. Ceci est maintenant fait à partir de NVDA dans
-  la 2017.3.
 * Les groupes de paramètres sont reconnus lorsque vous utilisez la
   navigation par objet pour naviguer entre les commandes.
 * Pour certaines zones de liste déroulantes, NVDA ne manquera plus de
-  reconnaître les étiquettes et/ou d'annoncer les changements de
-  valeur. Correction de changement de valeur est inclus dans NVDA 2017.3.
+  reconnaître les étiquettes et/ou d'annoncer les changements de valeur.
 * Les bips de la barre de progression du volume audio ne sont plus audibles
   dans la build 17035 et ultérieure.
 
@@ -181,11 +174,8 @@ complémentaire, n'oubliez pas de sauvegarder la configuration de NVDA.
 * Après vérification des mises à jour d'applications, le nom des
   applications dans la liste des applications à mettre à jour sera
   correctement étiqueté.
-* L'apparition des suggestions de recherche est maintenant annoncée. Cela
-  fait maintenant partie de NVDA 2017.3.
 * Lors du téléchargement de contenus tels que des applications et des films,
-  NVDA annoncera le nom du produit et la progression du téléchargement. Une
-  solution de base fait désormais partie de NVDA 2017.3.
+  NVDA annoncera le nom du produit et la progression du téléchargement.
 
 ## Météo
 

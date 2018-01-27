@@ -1,11 +1,11 @@
-# Windows 10 App Essentials #
+# Ergänzungen für Windows 10 Apps #
 
 * Autors: Joseph Lee, Derek Riemer und mehrere Benutzer von Windows 10
 * [Stabile Version][1] herunterladen
 * [Entwicklerversion][2] herunterladen
 
-Diese Erweiterung bringt ein Paket von App-Modulen für diverse Windows 10
-Apps sowie Korrekturen in einigen Windows 10 Steuerungen mit.
+Diese Erweiterung bringt ein Paket von Anwendungsmodulen für diverse Windows
+10 Apps sowie Korrekturen in einigen Windows 10 Elementen mit.
 
 Die folgenden App-Module oder unterstützten Module für Windows-10-Apps sind
 inbegriffen (siehe weiter unten jeden App-Bereich für mehr Details)
@@ -27,7 +27,7 @@ inbegriffen (siehe weiter unten jeden App-Bereich für mehr Details)
 * Wetter
 * Diverse Steuermodule wie beispielsweise die Startmenübereiche
 
-Hinweis: Diese Erweiterung benötigt Windows 10 Version 1607 (Build 14393)
+Hinweis: Diese Erweiterung benötigt Windows 10 Version 1703 (build 15063)
 oder höher und NVDA 2017.3 oder höher. Um beste Ergebnisse zu erzielen,
 verwenden Sie die Erweiterung mit dem neuesten stabilen Build von Windows 10
 (Build 16299) und der neuesten stabilen Version von NVDA. Nachdem Sie die
@@ -38,8 +38,8 @@ auch die NVDA-Einstellungen speichern.
 
 * Untermenüs werden im Kontextmenü von Kacheln korrekt erkannt
 * Bestimmte Dialoge werden nun als richtige Dialogfelder erkannt. Dazu
-  gehören das Dialogfeld"Insider-Vorschau" (Einstellungsanwendung) und der
-  neue UAC-Dialog in Build 14328 und höher für NvDA 2016.2 oder älter.
+  gehören das Dialogfeld"Insider-Vorschau" in der App für
+  Windowseinstellungen.
 * NVDA kann die Anzahl der Vorschläge bei der Suche in den meisten Fällen
   bekannt geben. Diese Option wird gesteuert durch Meldung von
   Objektpositionsdaten im Dialog der Objektpräsentation.
@@ -49,7 +49,7 @@ auch die NVDA-Einstellungen speichern.
   Systemalarm, Element ausgewählt, Fenster geöffnet. Wenn NVDA so
   eingestellt ist, dass es mit aktiviertem Debug-Logging läuft, werden diese
   Ereignisse protokolliert.
-* Möglichkeit hinzugefügt, über den neuen Windows 10 App Essentials Dialog
+* Möglichkeit hinzugefügt, über den neuen Dialog Windows 10 App Essentials
   im NVDA-Einstellungsmenü nach Aktualisierungen für diese Erweiterung
   (automatisch oder manuell) zu suchen. Standardmäßig werden stabile- und
   Entwicklerversionen wöchentlich bzw. täglich automatisch nach neuen
@@ -83,8 +83,8 @@ auch die NVDA-Einstellungen speichern.
 * Textuelle Antworten von Cortana werden in den meisten Fällen
   angezeigt. Falls nicht, öffnen Sie das StartMenü und starten Sie die Suche
   erneut.
-* NVDA verstummt bei der Verwendung von Cortana, so dass die Stimmen nicht
-  mehr sich in die Quere kommen.
+* NVDA verstummt bei der Verwendung von Cortana, so dass sich die Stimmen
+  nicht mehr in die Quere kommen.
 * NVDA wird nun eine Erinnerungsbestätigung anzeigen, nachdem Sie eine
   eingestellt haben.
 
@@ -111,10 +111,9 @@ auch die NVDA-Einstellungen speichern.
 ## Microsoft Edge
 
 * Benachrichtigungen wie Datei-Downloads und verschiedene
-  Website-Benachrichtigungen werden nun angesagt. Die meisten dieser
-  Szenarien sind auch Bestandteil von NVDA 2017.3.
+  Website-Benachrichtigungen werden nun angesagt. 
 
-## moderne viertuelle Tastaturen
+## moderne virtuelle Tastaturen
 
 * Unterstützung für das schwebende Emoji-Eingabefeld in der Windowsversion
   1709 (Fall Creators Update). Für beste Erfahrungen beim Lesen von Emojis
@@ -130,19 +129,13 @@ auch die NVDA-Einstellungen speichern.
 ## Einstellungen
 
 * Bestimmte Informationen, wie z.B. der Fortschritt von Windows Update,
-  werden nun automatisch gemeldet. Die meisten Fälle sind standardmäßig in
-  NVDA 2017.3 integriert.
+  werden nun automatisch gemeldet.
 * Werte in Fortschrittsbalken und andere Informationen werden nicht mehr
   zweimal angesagt.
-* Wenn die Suche nach Einstellungen zu lange dauert, wird NVDA den Status
-  der Suche und des Suchergebnisses ansagen, z.B. wenn eine Einstellung
-  nicht gefunden werden kann. Dies ist nun auch bestandteil von NVDA ab
-  2017.3.
 * Einstellungsgruppen werden erkannt, wenn Objektnavigation zur Navigation
-  zwischen Controllern angewendet wird.
+  zwischen Elementen angewendet wird.
 * Bei einigen Ausklapplisten wird NVDA nun die Beschriftung erkennen
-  und/oder Wertänderungen ankündigen. Diese Funktion ist in NVDA ab 2017.3
-  enthalten.
+  und/oder Wertänderungen ankündigen.
 * Fortschrittsbalken in Lautstärke-Reglern werden nicht mehr ausgegeben
   (gilt für Windowsversionen ab Build 17035)
 
@@ -173,11 +166,8 @@ auch die NVDA-Einstellungen speichern.
 
 * Nach der Suche nach App-Aktualisierungen werden die App-Namen in der Liste
   der zu aktualisierenden Apps korrekt beschriftet.
-* Das Erscheinen von Suchvorschlägen wird nun angekündigt. Dies ist nun Teil
-  von NVDA 2017.3.
 * Beim Herunterladen von Inhalten wie Apps und Filmen wird NVDA den
-  Produktnamen und den Fortschritt des Downloads bekannt geben. Ein
-  grundlegender Fix ist jetzt Bestandteil von NVDA 2017.3.
+  Produktnamen und den Fortschritt des Downloads bekannt geben.
 
 ## Wetter
 

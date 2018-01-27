@@ -5,7 +5,8 @@
 * Descărcați [versiunea în dezvoltare][2]
 
 Acest supliment cuprinde o colecție de module pentru diverse aplicații din
-Windows 10 și soluții pentru anumite comenzi din Windows 10.
+Windows 10, dar și rezolvări și îmbunătățiri pentru anumite controale din
+Windows 10.
 
 Următoarele module de aplicații sau module de suport pentru unele aplicații
 sunt incluse (verificați fiecare secțiune a aplicației pentru detalii cu
@@ -28,7 +29,7 @@ privire la ceea ce este inclus):
 * Meteo.
 * Diverse module de control precum tile-urile din meniul start.
 
-Notă: acest supliment necesită Windows 10 versiunea 1607 )compilarea 14393)
+Notă: acest supliment necesită Windows 10 versiunea 1703 )compilarea 15063)
 sau mai nou și NVDA 2017.3 sau mai nou. Pentru cele mai bune rezultate,
 folosiți-l cu ultima compilare stabilă ( compilarea 16299) și cea mai
 recentă versiune stabilă a NVDA-ului. De asemenea, după modificarea
@@ -40,9 +41,8 @@ NVDA-ului.
 * În meniurile contextuale ale tile-urilor din cadrul Start Meniu,
   submeniurile sunt recunoscute corect.
 * Anumite dialoguri sunt acum recunoscute ca dialoguri
-  corespunzătoare. Acestea includ dialogul Insider Preview (în aplicația
-  Setări) și un nou stil în dialogul UAC în compilarea 14328 și mai nouă
-  pentru NvDA 2016.2.1 sau mai vechi.
+  corespunzătoare. Acestea includ dialogul Insider Preview (aplicația
+  setări).
 * NVDA poate anunța numărul de sugestii la efectuarea unei căutări în
   majoritatea cazurilor. Această opțiune este controlată de „informația
   poziției obiectului în dialogul prezentării obiectului.
@@ -59,8 +59,7 @@ NVDA-ului.
   zilnic.
 * În unele aplicații, textul regiunii live este anunțat. Aceasta include
   alertele din Edge, rezultatele din Calculator și altele. Rețineți faptul
-  că asta poate rezulta o dublă vorbire în unele cazuri. Majoritatea
-  scenariilor fac parte acum din NVDA 2017.3.
+  că asta poate rezulta o dublă vorbire în unele cazuri.
 
 ## Alarme și ceas
 
@@ -110,8 +109,7 @@ NVDA-ului.
 ## Microsoft Edge
 
 * Sunt anunțate notificări, cum ar fi descărcări de fișiere și diverse
-  alerte de pe paginile web. Cele mai multe dintre aceste scenarii fac parte
-  acum din NVDA 2017.3.
+  alerte de pe paginile web.
 
 ## Tastatură modernă
 
@@ -129,17 +127,13 @@ NVDA-ului.
 ## Setări
 
 * Anumite informații, cum ar fi progresul Windows Update, sunt acum
-  raportate automat. NVDA se va ocupa în majoritatea cazurilor din 2017.3.
+  raportate automat.
 * Valorile barei de progres și alte informații nu mai sunt anunțate de două
   ori.
-* Dacă durează ceva timp să căutați în setări, NVDA va anunța „se caută” și
-  starea rezultatului căutării, cum ar fi dacă o setare nu poate fi
-  găsită. Acest lucru este făcut de NVDA începând cu versiunea 2017.3.
 * Grupurile de setări sunt recunoscute la utilizarea navigării obiectului
   pentru a naviga printre controale.
 * Pentru unele casete combinate, NVDA nu va mai eșua la recunoașterea
-  etichetelor și/sau anunțarea schimbărilor valorii. Rezolvarea modificării
-  valorii este inclusă în NVDA 2017.3.
+  etichetelor și/sau anunțarea schimbărilor valorii.
 * Bipurile barei de progres a volumului audio nu mai sunt auzite în
   compilarea 17035 sau mai nouă.
 
@@ -170,11 +164,8 @@ NVDA-ului.
 
 * După căutarea actualizărilor aplicației, nume de aplicații în lista
   aplicațiilor care urmează să fie actualizate sunt etichetate corect.
-* Aspectele sugestiilor de căutare sunt acum anunțate. Această
-  caracteristică face parte acum din NVDA 2017.3.
 * La descărcarea conținutului, cum ar fi aplicații și filme, NVDA va anunța
-  numele produsului și progresul descărcării. O soluție de bază face parte
-  acum din NVDA 2017.3.
+  numele produsului și progresul descărcării.
 
 ## Meteo
 
